@@ -14,7 +14,6 @@
             return AloCfg;
         },
         volatileListener = function () {
-            console.log(this);
             setItem(this, sessionStorage);
         },
         permanentListener = function () {

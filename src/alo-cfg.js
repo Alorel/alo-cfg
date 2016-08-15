@@ -8,7 +8,7 @@
 
             for (; i < allChildren.length; i++) {
                 if (allChildren[i].type !== RADIO || allChildren[i].checked) {
-                    setItem(this, storage);
+                    setItem(allChildren[i], storage);
                 }
             }
             return AloCfg;

@@ -1,4 +1,4 @@
-Provides an easy and convenient way to manage client-side configuration via data attributes.
+Provides an easy and convenient way to manage client-side configuration via data attributes. See [this fiddle](https://jsfiddle.net/Alorel/yn74gwj0/) for a demo.
 
 # Requirements
 alo-cfg only requires **localStorage** and **sessionStorage** to be available. You'll need to use [one of the many available polyfills](http://lmgtfy.com/?q=web+storage+polyfill) if your project is still visited by dinosaurs.

@@ -9,7 +9,7 @@ alo-cfg only requires **localStorage** and **sessionStorage** to be available. Y
 ```
 
 # Usage
-## The HTML
+## HTML
 Simply add a **data-cfg=some_key** attribute to a HTML input element, e.g.:
 ```html
 <!-- Stores the entered value -->
@@ -21,7 +21,7 @@ Simply add a **data-cfg=some_key** attribute to a HTML input element, e.g.:
 <input name="orAnother" type="checkbox" data-cfg="tick"/>
 ```
 
-## The javascript
+## Javascript
 ### Adding the change/keyup event listeners
 You can automatically save updated values using the **bind** method which accepts 2 parameters - the **HTMLElement** containing your form (defaults to **document.body**) and
 whether the storage used should be volatile (*sessionStorage*) or persistent (*localStorage, default value*):
